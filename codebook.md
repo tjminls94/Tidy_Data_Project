@@ -1,8 +1,12 @@
 Data Source
+===========
 
 Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+All data files contained in the zip must be unzipped into the working directory.
+
 Summary of project
+==================
 
 Purpose:  You should create one R script called run_analysis.R that does the following. 
 Merges the training and the test sets to create one data set.
@@ -14,6 +18,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 Requires data.table, reshape2 and plyr libraries to be loaded.
 
 Output
+======
 Output of run_analysis.R will be the text file tidy.txt
 
 Other variables created during the execution of run_analysis.R:
