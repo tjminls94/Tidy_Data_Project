@@ -41,7 +41,7 @@ meanstdcols <- c(meanstdcols,"Activity","Subject")
 Combined <- Combined[,meanstdcols]
 
 ## 3) Uses descriptive activity names to name the activities in the data set
-##    We will replace each value in "Activity" with the corresponding
+##    Replace each value in "Activity" with the corresponding
 ##    descriptive value from activity_labels
 
 Combined$Activity[Combined$Activity==1] <- "WALKING"
